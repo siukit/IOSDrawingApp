@@ -14,6 +14,7 @@
 		E0482A221E0DC7CE00F6F56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0482A201E0DC7CE00F6F56C /* LaunchScreen.storyboard */; };
 		E0482A2D1E0DC7CE00F6F56C /* IOSDrawingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0482A2C1E0DC7CE00F6F56C /* IOSDrawingAppTests.swift */; };
 		E0482A381E0DC7CE00F6F56C /* IOSDrawingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0482A371E0DC7CE00F6F56C /* IOSDrawingAppUITests.swift */; };
+		E0482A501E1343D000F6F56C /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0482A4F1E1343D000F6F56C /* ColorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E0482A331E0DC7CE00F6F56C /* IOSDrawingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSDrawingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0482A371E0DC7CE00F6F56C /* IOSDrawingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDrawingAppUITests.swift; sourceTree = "<group>"; };
 		E0482A391E0DC7CE00F6F56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0482A4F1E1343D000F6F56C /* ColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E0482A171E0DC7CD00F6F56C /* AppDelegate.swift */,
 				E0482A191E0DC7CD00F6F56C /* ViewController.swift */,
 				E0482A1B1E0DC7CD00F6F56C /* Main.storyboard */,
+				E0482A4F1E1343D000F6F56C /* ColorController.swift */,
 				E0482A1E1E0DC7CE00F6F56C /* Assets.xcassets */,
 				E0482A201E0DC7CE00F6F56C /* LaunchScreen.storyboard */,
 				E0482A231E0DC7CE00F6F56C /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0482A1A1E0DC7CD00F6F56C /* ViewController.swift in Sources */,
+				E0482A501E1343D000F6F56C /* ColorController.swift in Sources */,
 				E0482A181E0DC7CD00F6F56C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOSDrawingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myDrawingApp.IOSDrawingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOSDrawingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myDrawingApp.IOSDrawingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +444,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IOSDrawingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myDrawingApp.IOSDrawingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +459,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IOSDrawingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myDrawingApp.IOSDrawingAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +473,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = IOSDrawingAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myDrawingApp.IOSDrawingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,6 +487,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = IOSDrawingAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myDrawingApp.IOSDrawingAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +515,7 @@
 				E0482A3E1E0DC7CE00F6F56C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0482A3F1E0DC7CE00F6F56C /* Build configuration list for PBXNativeTarget "IOSDrawingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +524,7 @@
 				E0482A411E0DC7CE00F6F56C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0482A421E0DC7CE00F6F56C /* Build configuration list for PBXNativeTarget "IOSDrawingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +533,7 @@
 				E0482A441E0DC7CE00F6F56C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
